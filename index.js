@@ -1,7 +1,9 @@
-import express from "express";
-import { RtcTokenBuilder, RtcRole } from "agora-access-token";
-import dotenv from "dotenv";
-import cors from 'cors';
+const express = require("express");
+const cors = require("cors");
+const { RtcTokenBuilder, RtcRole } = require("agora-access-token");
+const dotenv = require("dotenv");
+
+
 dotenv.config();
 const APP_ID = "cfa9cd79da0e478084f0e2cecaec9972";
 const PORT = 3000;
