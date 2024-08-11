@@ -3,9 +3,9 @@ import { RtcTokenBuilder, RtcRole } from "agora-access-token";
 import dotenv from "dotenv";
 import cors from 'cors';
 dotenv.config();
-const APP_ID = process.env.APP_ID;
-const PORT = process.env.PORT;
-const APP_CERTIFICATE = process.env.APP_CERTIFICATE;
+const APP_ID = "cfa9cd79da0e478084f0e2cecaec9972";
+const PORT = 3000;
+const APP_CERTIFICATE = "218fc23b86f3442f9edf552bd086a282";
 
 const app = express();
 const corsOptions = {
